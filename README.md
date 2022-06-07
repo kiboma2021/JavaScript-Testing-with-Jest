@@ -14,4 +14,20 @@ npm install --save-dev jest
     });
 
 
-const User = require('./user')
+    const User = require('./user')
+
+    test('test name', () => {
+      const user = new User()
+      expect(user.greeting()).toBe("Hello");
+    });
+
+
+
+    if(name) {
+      return `Hello ${name}`;
+    } else {
+      return 'Hello Stranger';
+    }
+
+    //can be optimized to:
+    return "Hello" + (name || "Stranger");

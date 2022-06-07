@@ -1,3 +1,6 @@
+const User = require('./user');
+
 test('test name', () => {
-  expect(false).toBe(false);
+  const user = new User()
+  expect(user.greeting()).toBe("Hello");
 });

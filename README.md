@@ -8,3 +8,10 @@ npm install --save-dev jest
 - Change Jest Script to 'jest'
 - 'npm run test' will fail since there are no test files yet
 - Create a file with the same name with an extension 'test.js'
+
+    test('test name', () => {
+      expect(false).toBe(false);
+    });
+
+
+const User = require('./user')

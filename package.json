@@ -1,0 +1,23 @@
+{
+  "name": "javascript-testing-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiboma2021/JavaScript-Testing-with-Jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiboma2021/JavaScript-Testing-with-Jest/issues"
+  },
+  "homepage": "https://github.com/kiboma2021/JavaScript-Testing-with-Jest#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

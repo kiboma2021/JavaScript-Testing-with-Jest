@@ -5,7 +5,7 @@ npm init -y
 npm install --save-dev jest
 
 - Once installed, you should see it in already created Json file
-- Change Jest Script to 'jest'
+- Change Jest Script to 'jest' // jest --coverage
 - 'npm run test' will fail since there are no test files yet
 - Create a file with the same name with an extension 'test.js'
 
@@ -31,3 +31,8 @@ npm install --save-dev jest
 
     //can be optimized to:
     return "Hello" + (name || "Stranger");
+
+    let user;
+    beforeEach(() => {
+      user = new User();
+    });

@@ -14,3 +14,5 @@ describe('user >', () => {
     expect(result).toBe("Hello John"); //Assert
   });
 });
+// We will get two output for each of the scenarios above
+ //This is what is called Unit testing. Test a small block of code lather than the entire class

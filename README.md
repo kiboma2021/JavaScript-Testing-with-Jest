@@ -36,3 +36,7 @@ npm install --save-dev jest
     beforeEach(() => {
       user = new User();
     });
+
+    Arrange | Act | Assert
+    
+    jest --watch-all 
